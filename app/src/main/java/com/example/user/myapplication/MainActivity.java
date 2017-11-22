@@ -49,15 +49,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void gotoPage1(View view){
-
+        viewPager.setCurrentItem(0);
     }
     public void gotoPage2(View view){
-
+        viewPager.setCurrentItem(1);
     }
     public void gotoPage3(View view){
-
+        viewPager.setCurrentItem(2);
     }
     public void gotoPage4(View view){
-
+        viewPager.setCurrentItem(3);
     }
 }
